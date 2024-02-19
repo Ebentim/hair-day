@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Mulish", sans-serif;
+}
+:root {
+  --primary-background: #aa3535;
+  --primary-color: #efefef;
+  --hover-background: #aa3535a8;
+  --barner-gradient: linear-gradient(to bottom right, #aa3535, #aa3535e0);
+  --barner-height: 40vh;
+  --primary-shadow: 2px 2px 2px #9b969685;
+  --primary-width: 80vw;
+  --tablet-width: 80vw;
+  --mobile-width: 100vw;
+}
+h1 {
+  font-size: 3rem;
+  margin-bottom: 5px;
+  font-weight: 900;
+}
+h1:hover {
+  transform: scale(1.01);
+  transition: 2s ease-in-out;
+}
+h2 {
+  font-size: 2.2rem;
+}
+h3 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1.2rem;
+}
+header {
+  margin-top: 0;
+}
+header > img {
+  display: block;
+  height: 40px;
+  width: auto;
+  margin: 0 auto;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+  background-color: var(--primary-background);
+}
+
+nav li {
+  display: inline-block;
+  margin: auto 10px;
+  color: var(--primary-color);
+  padding: 10px;
+}
+.nav-link {
+  color: var(--primary-color);
+}
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.barner {
+  height: var(--barner-height);
+  width: var(--primary-width);
+  background: var(--barner-gradient);
+  background-image: url(https://www.henkel.com/resource/image/1737214/3x2/1000/667/129eb2ade681cf615fd8b91702391d24/B13A3AA5C0268FEA4E7E80BFFBA14481/unseen-scarab-yueh-n-01-128-f6.webp);
+  margin: 10px auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: var(--primary-color);
+  border-radius: 1rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+h3 {
+  text-align: center;
+  color: var(--primary-background);
+}
+#services {
+  display: flex;
+  justify-content: space-between;
+  width: var(--primary-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+.services {
+  display: block;
+  padding: 10px;
+}
+.card {
+  flex: 1;
+  height: 18rem;
+  width: 25vw;
+  box-shadow: var(--primary-shadow);
+  border-radius: 7%;
+  padding: 5px;
+}
+.card-image {
+  height: 50%;
+  width: 100%;
+  border-radius: 7%;
+  overflow: hidden;
+}
+.card img {
+  height: 100%;
+  width: 100%;
+}
+
+.card img:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+  border-radius: 7%;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--barner-gradient);
+  color: #efefef;
+  height: auto;
+  margin-top: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+footer div {
+  padding-right: 10px;
+  margin-right: 10px;
+  padding-left: 1rem;
+}
+footer img {
+  height: 2rem;
+}
